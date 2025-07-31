@@ -39,7 +39,7 @@ body {
     line-height: 140%;
     letter-spacing: 0.016rem;
     font-weight: 200;
-    color : var(--grey-500);
+    color: var(--grey-500);
 }
 
 .text-bold {
@@ -50,12 +50,14 @@ body {
     font-size: 1.25rem;
     line-height: 135%;
     letter-spacing: 0;
+    color: var(--grey-500);
     font-weight: 600;
 }
 
 .text-perset-3 {
     line-height: 140%;
     letter-spacing: 0;
+    color: var(--grey-500);
 }
 
 
@@ -63,6 +65,8 @@ body {
     font-size: 0.813rem;
     line-height: 160%;
     letter-spacing: 0;
+    color: var(--grey-500);
+
 }
 
 /* structure */
@@ -78,7 +82,8 @@ header {
 
 }
 
-header h1, header h1 span  {
+header h1,
+header h1 span {
     text-align: center;
 }
 
@@ -125,7 +130,7 @@ main {
     border-top: 4px solid var(--cyan);
 }
 
-.middle-card  .card:nth-child(1) {
+.middle-card .card:nth-child(1) {
     border-top: 4px solid var(--red);
 }
 
