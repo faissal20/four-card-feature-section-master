@@ -98,7 +98,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     padding: 2.75rem 1rem;
 }
 
@@ -107,7 +107,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 
@@ -116,10 +116,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 2rem;
+    padding: 2rem;
     border-radius: .4rem;
-    box-shadow: 0 1px 10px hsl(0, 0%, 1%, 15%);
+    box-shadow: 0 15px 30px hsl(213, 38%, 82%, 50%);
 }
 
 .first-card .card:nth-child(1) {
@@ -161,5 +161,10 @@ main {
     .cards {
         flex-direction: row;
 
+    }
+
+    .card {
+        max-width: none;
+        width: 21.875rem;
     }
 }
